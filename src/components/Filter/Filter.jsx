@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import { FilterInp, FilterSticker } from './filter.styled';
+import { FilterInp, FilterLabel } from './Filter.styled';
 
 const Filter = ({ value, onChange }) => {
   return (
-    <FilterSticker>
+    <FilterLabel>
       <span>Find contacts by name</span>
       <FilterInp
         type="text"
@@ -11,7 +11,7 @@ const Filter = ({ value, onChange }) => {
         onChange={onChange}
         placeholder="search"
       />
-    </FilterSticker>
+    </FilterLabel>
   );
 };
 
