@@ -5,7 +5,7 @@ import { nanoid } from 'nanoid';
 import { ContactList } from './ContactList/ContactList';
 import { GlobalStyle } from './GlobalStyle/GlobalStyle';
 import { ContactForm } from './ContactForm/ContactForm';
-import Filter  from './Filter/Filter';
+import { Filter }  from './Filter/Filter';
 
 const theme = {};
 
